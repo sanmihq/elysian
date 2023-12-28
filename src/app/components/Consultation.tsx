@@ -66,7 +66,7 @@ export default function Consultation() {
               </div>
             </div>
 
-            <div>
+            <div> 
               <p className="text-default text-sm">
                 1st Floor, Mujjab El Yakub Building, Danladi Street,
                 <br />

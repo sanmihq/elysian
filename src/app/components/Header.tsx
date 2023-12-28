@@ -12,17 +12,17 @@ const menu: Menu[] = [
   {
     index: 1,
     name: "Features",
-    url: "#features",
+    url: "/#features",
   },
   {
     index: 2,
     name: "Services",
-    url: "#services",
+    url: "/#services",
   },
   {
     index: 3,
     name: "Feedbacks",
-    url: "#feedbacks",
+    url: "/#feedbacks",
   },
 ];
 
