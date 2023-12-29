@@ -32,7 +32,7 @@ const testimonials: Testimonial[] = [
 
 export default function Testimonials() {
   return (
-    <section className="bg-faded px-12 sm:px-16 py-20">
+    <section className="bg-faded px-10 sm:px-14 py-20">
       <div className="flex flex-col gap-10 sm:flex-row items-center max-w-[100rem] mx-auto">
         <div className="w-full sm:w-[30%] text-start sm:text-center">
           <h2 className="font-semibold text-2xl lg:text-3xl">

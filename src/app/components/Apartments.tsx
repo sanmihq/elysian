@@ -6,7 +6,7 @@ import Image from "next/image";
 
 export default function Apartments() {
   return (
-    <section className="p-12 md:p-16">
+    <section className="px-10 py-12 md:px-16">
       <div className="w-[98%] mx-auto">
         <h2 className="text-3xl font-medium mb-10">
           Live in the <br />
@@ -32,7 +32,7 @@ export default function Apartments() {
           </div>
           <div className="w-full md:w-3/5 flex flex-col gap-8">
             <div className="flex md:flex-row gap-8">
-              <div className="w-1/2 md:w-2/5 h-[380px] md:h-[250px]">
+              <div className="w-1/2 md:w-2/5 h-[250px] md:h-[380px]">
                 <Image
                   src={Oak}
                   alt="oak"
@@ -41,7 +41,7 @@ export default function Apartments() {
                   className="w-full h-full"
                 />
               </div>
-              <div className="w-1/2 md:w-3/5 h-[380px] md:h-[250px]">
+              <div className="w-1/2 md:w-3/5 h-[250px] md:h-[380px]">
                 <Image
                   src={Oakville}
                   alt="oakville"
